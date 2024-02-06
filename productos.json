@@ -1,0 +1,56 @@
+[
+	{
+		"title": "uvas",
+		"description": "uvas",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 36478,
+		"stock": 20,
+		"id": 1
+	},
+	{
+		"title": "naranja",
+		"description": "naranja",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 98478,
+		"stock": 36,
+		"id": 2
+	},
+	{
+		"title": "mandarina",
+		"description": "mandarina",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 82478,
+		"stock": 36,
+		"id": 3
+	},
+	{
+		"title": "mango",
+		"description": "mango",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 29478,
+		"stock": 18,
+		"id": 4
+	},
+	{
+		"title": "frutilla",
+		"description": "frutilla",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 54478,
+		"stock": 18,
+		"id": 5
+	},
+	{
+		"title": "cebolla",
+		"description": "cebolla",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 99933,
+		"stock": 36,
+		"id": 7
+	}
+]
