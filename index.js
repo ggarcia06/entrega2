@@ -1,8 +1,19 @@
 import fs from 'fs'
 
 class ProductManager {
+    array = new Array();
+
     constructor (path){
         this.path = path
+        if(!fs.existsSync(this.path)){
+            fs.writeFileSync(this.path, JSON.stringify(this.array))
+        }
+    }
+
+    getProducts = async() => {
+        const data = await fs.promises.readFile(this.path, 'utf-8')
+        const products = JSON.parse(data)
+        return products
     }
 
     getProducts = async() => {
@@ -103,7 +114,7 @@ const products = new ProductManager("./productos.json")
 
 
 
-// await products.deleteProduct(6)
+// await products.deleteProduct(1)
 
 
 
